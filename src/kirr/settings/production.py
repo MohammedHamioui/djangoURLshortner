@@ -14,7 +14,7 @@ SECRET_KEY = 'django-insecure-+9y1s9(8nfea&p5aocba-ge^muq#yofw(1wrj05d!n7n#xo^c3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['tirr.com','www.tirr.com', 'www.kirr.co', 'kirr.co', 'blog.tirr.com']
+ALLOWED_HOSTS = ['tirr.com','www.tirr.com', 'www.kirr.co', 'kirr.co', 'blog.tirr.com', 'kirr.netlify.app']
 
 
 # Application definition
