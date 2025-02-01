@@ -1,9 +1,10 @@
 [build]
-command = "python manage.py migrate"
+command = "pip install -r requirements.txt && python manage.py migrate && python manage.py collectstatic --noinput"
+publish = "staticfiles"
 
 [build.environment]
 DJANGO_SETTINGS_MODULE = "kirr.settings.production"
-PYTHON_VERSION = "3.8"
+PYTHON_VERSION = "3.10.16"
 
 [dev]
 command = "python manage.py runserver"
