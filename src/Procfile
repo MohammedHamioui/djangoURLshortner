@@ -1,1 +1,1 @@
-web: waitress-serve --port=8000 kirr.wsgi:application
+web: waitress-serve --port=5000 kirr.wsgi:application
