@@ -3,7 +3,7 @@ publish = "staticfiles"  # Directory where your static files will be collected
 command = "python manage.py collectstatic --noinput && python manage.py migrate"
 
 [build.environment]
-DJANGO_SETTINGS_MODULE = "your_project_name.settings.production"
+DJANGO_SETTINGS_MODULE = "kirr.settings.production"
 PYTHON_VERSION = "3.8"
 
 [dev]
